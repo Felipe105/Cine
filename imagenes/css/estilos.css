@@ -208,8 +208,10 @@ body{
     margin: -0.1vh 1.4vw;
     align-items: center;
 }
-.descripcion b{
+.descripcion b {
     font-size: 1.3em;
+    margin-bottom: 1.1vw;
+    display: block;
 }
 .descripcion a{
     color: black;
@@ -269,9 +271,9 @@ body{
     justify-content: center;
     border: #0003a5 2px solid;
     /* position: relative; */
-    background: no-repeat center linear-gradient(
+    /* background: no-repeat center linear-gradient(
         rgba(0,0,0,0.6),rgba(0,0,0,0.6)
-    ),url('../faf_portada.jpg');
+    ),url('../faf_portada.jpg'); */
     background-size: 100%;
     position: relative;
     z-index: 0;
@@ -303,13 +305,15 @@ body{
     font-size: 2vw;
 }
 .inf-trailer p,.inf-trailer{
-    font-size: 1.1vw;
+    font-size: 1.4vw;
     margin-left: 3.1vw;
     margin-top: 6vw;
     z-index: 5;
     color: #ffffff;
     display: flex;
     float: left;
+    font-weight: 600;
+    text-shadow: #080808 4px 2px 2px;
 }
 .part-2{
     background: white;
@@ -317,7 +321,7 @@ body{
     width: 60vw;
     margin: 0 auto;
     background: white;
-    height: 100%;
+    height: 30vw;
     padding: 10px;
     position: relative;
     vertical-align: 100%;
@@ -344,7 +348,9 @@ body{
 .sinopsis p{
     display: block;
     clear: both;
-    text-align: left;
-    margin-top: 5vw;
-    font-size: 1.2vw;
+    text-align: justify;
+    margin-top: 2vw;
+    font-size: 1vw;
+    line-height: 1.7;
+
 }
