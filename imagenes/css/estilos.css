@@ -61,6 +61,7 @@ body{
     height: 100%;
     padding: 10px;
     position: relative;
+    box-shadow: #080808 5px 5px 10px
 }
 .header img{
     height: 5vw;
@@ -264,9 +265,9 @@ body{
 }
 
 .portada{
-    margin: 8vw auto 105px;
+    margin: 8vw auto 0;
     justify-content: center;
-    border: #a5001b 2px solid;
+    border: #0003a5 2px solid;
     /* position: relative; */
     background: no-repeat center linear-gradient(
         rgba(0,0,0,0.6),rgba(0,0,0,0.6)
@@ -288,14 +289,14 @@ body{
     padding: 0;
 }
 .trailer-title{
-    background: #a5001b;
+    background: #3100a5;
     padding: 0.7vw 10vw 0.7vw 10vw ;
     display: inline-block;
     width: auto;
     margin: 7vw 0 0 5vw;
     position:absolute;
     z-index: 3;
-    box-shadow: #960303 5px 5px 10px;
+    box-shadow: #230396 5px 5px 10px;
 }
 .trailer-title b{
     color: white;
@@ -309,4 +310,41 @@ body{
     color: #ffffff;
     display: flex;
     float: left;
+}
+.part-2{
+    background: white;
+    width: 500px;
+    width: 60vw;
+    margin: 0 auto;
+    background: white;
+    height: 100%;
+    padding: 10px;
+    position: relative;
+    vertical-align: 100%;
+}
+
+.sinopsis {
+    text-align: center;
+    display: inline-block;
+    margin: 0 0 0 0;
+    position: absolute;
+    justify-content: center;
+    width: 30vw;
+}
+.sinopsis span{
+    font-size: 1.2vw; 
+    clear: both;
+    width: 100%;
+    display: block;
+    height: 100%;
+    background: #0003a5;
+    color: white;
+    padding: 0.5vw;
+}
+.sinopsis p{
+    display: block;
+    clear: both;
+    text-align: left;
+    margin-top: 5vw;
+    font-size: 1.2vw;
 }
