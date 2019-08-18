@@ -223,8 +223,7 @@ body{
     padding: 20px 10px 0 10px;
 }
 
-.botoncito{
-}
+
 .botoncito a {
     position: fixed;
     bottom: 0;
@@ -234,11 +233,11 @@ body{
     margin: 0 auto;
     display: flex;
     /* position: absolute; */
-    margin-right: 50px;
+    margin-right: 1vw;
     margin-bottom: 20px;
-    width: 100px;
+    width: 5vw;
     background: #ffffff;
-    height: 100px;
+    height: 5vw;
     border-radius: 1000000px;
     align-items: center;
     justify-content: center;
@@ -246,34 +245,54 @@ body{
     /* bottom: 0; */
     box-shadow: #ffffff75 0px 3px 40px;
     transition: 2s all;
-    
+    font-size: 1vw;
+    z-index: 20000;
+}
+.descripcion-trailer{
+
+    position: relative;
+    /* width: 100%;
+    height: 100%; */
+    justify-content: center;
+    padding: 0;
+    width: 100%;
+    height: 100%;   
+    display: flex;
 }
 .botoncito{
     transition: 2s all;
 }
-.portada img{
-    position: absolute;
-    z-index: 0;
-    width: 70vw;
-    filter: blur(2px);
-}
-.portada{
-    border: #1f1e1e 1px solid;
-    width: 100%;
-    position: relative;
-    margin: 50px 0 50px -8%
-}
-.decripcion-trailer-contenido{
-    z-index: 2;
-    position: relative;
 
+.portada{
+    margin: 8vw auto 105px;
+    justify-content: center;
+    border: #a5001b 2px solid;
+    /* position: relative; */
+    background: no-repeat center linear-gradient(
+        rgba(0,0,0,0.6),rgba(0,0,0,0.6)
+    ),url('../faf_portada.jpg');
+    background-size: 100%;
+    position: relative;
+    z-index: 0;
+    width: 75vw;
+    height: 27vw;
+    padding: 10vw 0 0 5vw;
+}
+.decripcion-trailer-contenido,iframe{
+    z-index: 2;
+    display: flex;
+    float: left;
+    border: 2px rgba(224, 224, 224, 0.452) solid;
+    width: 30vw;
+    height: 16.5vw;
+    padding: 0;
 }
 .trailer-title{
     background: #a5001b;
-    padding: 0.4vw ;
+    padding: 0.7vw 10vw 0.7vw 10vw ;
     display: inline-block;
     width: auto;
-    margin: -20px 0 0 0;
+    margin: 7vw 0 0 5vw;
     position:absolute;
     z-index: 3;
     box-shadow: #960303 5px 5px 10px;
@@ -281,4 +300,13 @@ body{
 .trailer-title b{
     color: white;
     font-size: 2vw;
+}
+.inf-trailer p,.inf-trailer{
+    font-size: 1.1vw;
+    margin-left: 3.1vw;
+    margin-top: 6vw;
+    z-index: 5;
+    color: #ffffff;
+    display: flex;
+    float: left;
 }
